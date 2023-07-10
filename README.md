@@ -6,7 +6,7 @@ Two pieces or more code running simultanously
 - This allows the system to sahre computing resources among many processes.
 - While waiting, the system can use the resources to perform other tasks.
 - On the other hand, concurrent programming implements code that can take advantage of multiple core processors to execute tasks simultaneously
-"""
+```
 import SwiftUI
 
 struct ContentView: View {
@@ -36,4 +36,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-"""
+```
