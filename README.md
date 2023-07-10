@@ -37,3 +37,8 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 ```
+The printout after 3 seconds
+```
+Name: image1
+
+```
