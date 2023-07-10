@@ -117,3 +117,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 ```
+
+
+## Cancelling a task
