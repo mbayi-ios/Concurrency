@@ -16,6 +16,15 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .task(priority: .background) {
+            let imageName = await loadImage(name: "image1")
+            print(imageName)
+        }
+    }
+    
+    func loadImage(name: String) async -> String {
+        try? await Task.sleep(nanoseconds: 3 * 1000_000_000)
+        return "Name: \(name)"
     }
 }
 
