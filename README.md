@@ -76,3 +76,10 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 ```
+
+printout after 9 seconds
+```
+Name: image1, Name: image2, and Name: image3
+```
+
+## Defining a task Explicitly
