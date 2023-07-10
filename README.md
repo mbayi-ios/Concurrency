@@ -152,3 +152,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 ```
+
+## Errors
+- Asynchronous Tasks are not always successful, so we must be prepared to process the errors returned. If we are creating our own tasks, we can define the errors with an enumeration that conforms to the Error Protocol
